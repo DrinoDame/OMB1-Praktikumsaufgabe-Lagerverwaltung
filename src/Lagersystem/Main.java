@@ -13,17 +13,7 @@ public class Main {
                 "warehouses. \nnorth, east, south and west. Right now they are all empty. \n" +
                 "If you want to know all possible commands, please enter '/help'.");
 
-        /* System.out.println("Which warehouse you want to manage?");
-        String warehouse = scanner.nextLine();
-
-        switch (warehouse) {
-            case "north":
-                management.update(north);
-        } */
-
         //default
         management.update();
-
-
     }
 }

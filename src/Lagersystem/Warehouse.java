@@ -25,6 +25,7 @@ public class Warehouse {
                     p.price = inputProduct.price;
                     System.out.println("Product has been updated. \n" + p.name + " is now " + p.stock + " times in stock \n " +
                             "with a price of " + p.price + " per " + p.name + ".");
+                    // evtl. noch hinzufügen, in welchem lager
                 } else {
                     products.add(inputProduct);
                     System.out.println("Product has been added. \n" + inputProduct.name + " is now " + inputProduct.stock + " times in stock " +
@@ -38,7 +39,7 @@ public class Warehouse {
     // Withdraw given number of product. No negative numbers! boolean to exit the code as fast as possible
     boolean withdrawProduct(String name, int quantity) {
 
-        // checks if quantitiy to withdraw is above zero. Returns false if not, to exit the code as fast as possible.
+        // checks if quantity to withdraw is above zero. Returns false if not, to exit the code as fast as possible.
         if (quantity < 1) {
             System.out.println("Please try again and enter a number above zero.");
         } else {
