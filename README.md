@@ -1,6 +1,6 @@
 # OMB1-Praktikumsaufgabe-Lagerverwaltung
 
-Hi Andi, hi Luis,
+Hi Andi, hi Linus,
 
 hier mein Code zur aktuellen Praktikumsaufgabe.
 
